@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T11:07:47 IST" name="Default suite" finished-at="2022-05-17T11:07:57 IST" duration-ms="9643">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T11:07:47 IST" name="Default test" finished-at="2022-05-17T11:07:57 IST" duration-ms="9643">
+      <class name="jsonPayload.JsonPayloadWithMap">
+        <test-method signature="nestedJsonPayload()[pri:0, instance:jsonPayload.JsonPayloadWithMap@67c33749]" started-at="2022-05-17T11:07:47 IST" name="nestedJsonPayload" finished-at="2022-05-17T11:07:57 IST" duration-ms="9526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedJsonPayload -->
+        <test-method signature="simpleJsonPayloadEg()[pri:0, instance:jsonPayload.JsonPayloadWithMap@67c33749]" started-at="2022-05-17T11:07:57 IST" name="simpleJsonPayloadEg" finished-at="2022-05-17T11:07:57 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleJsonPayloadEg -->
+      </class> <!-- jsonPayload.JsonPayloadWithMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
