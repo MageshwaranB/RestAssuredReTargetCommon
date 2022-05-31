@@ -15,7 +15,7 @@ public class SharingDataThroughCommonClassUsingMap
 		/*
 		 *  In order to share the data between apis, first extract the data from one api
 		 *  Using priority, we are making sure the id is generated before using it to 
-		 *  retreive the data
+		 *  retrieve the data
 		 *  We have a created a map in DataStoreAsMap class which sets and gets value we pass
 		 *  Using this approach we don't need to create multiple global variables
 		 *  Datatype used for the key will not be known for the co workers so that might become a 
