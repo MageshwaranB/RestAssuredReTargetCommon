@@ -15,7 +15,7 @@ public class SharingData
 		/*
 		 *  In order to share the data between apis, first extract the data from one api
 		 *  Using priority, we are making sure the id is generated before using it to 
-		 *  retreive the data
+		 *  retrieve the data
 		 */
 		//DataStore.PET_ID is coming from datastore class where we have created integer which is used as global variable
 		DataStore.PET_ID = RestAssured.given()
