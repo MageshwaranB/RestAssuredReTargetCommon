@@ -18,7 +18,7 @@ public class ConvertJsonObjectToJavaMap
 		Map<String, Object> jsonResponseAsMap = RestAssured.given()
 						.get("https://run.mocky.io/v3/00a0e01d-9ebb-4429-8d19-3a7ca7f7b7a8")
 			/*
-			 * To convert the given response to a map, we need to use the as method
+			 * To convert the given response to a map, we need to use the as() method
 			 * Why can we convert this to a map because if we want to create a json object, we need to make use of a map
 			 * Similarly the opposite is also true
 			 */
