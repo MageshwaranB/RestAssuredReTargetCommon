@@ -1,0 +1,69 @@
+Intro:
+	Rest is acronym for REpresentational State Transfer
+	It is architectural style for distributed hypermedia systems
+	It's architectural style has six constraints
+	
+Constraints:
+	Uniform Interface
+	Stateless
+	Cacheable
+	Client Server
+	Layered System
+	Code on demand
+	
+Client Server
+	The client and server act independently on their own and the interaction between them
+is only in the form of requests and responses which is initiated by the client alone
+
+Uniform Interface
+	Rest is defined by four interfaces
+	1. Identification of resources
+	2. manipulation of resources through representations
+	3. self-descriptive messages; 
+	4. and, hypermedia as the engine of application state.
+	
+	The result of the uniform interface is that requests from different clients 
+look the same, whether the client is a chrome browser, a linux server, a python script, 
+an android app or anything else.
+
+Stateless
+	Each request from client to server must contain all of the information necessary to 
+understand the request, and cannot take advantage of any stored context on the server.
+
+Stateless means the server does not remember anything about the user who uses the API. 
+
+Cacheable
+	This means that the data the server sends contain 
+information about whether or not the data is cacheable. 
+
+If the data is cacheable, it might contain some sort of a version number. 
+The version number is what makes caching possible: since the client knows which version 
+of the data it already has (from a previous response), the client can avoid 
+requesting the same data again and again.
+
+The client should also know if the current version of the data is expired, 
+in which case the client will know it should send another request to the server 
+to get the most updated data about the state of a resource.
+
+Layered System
+	Between the client who requests a representation of a resource’s state, 
+and the server who sends the response back, there might be a number of 
+servers in the middle. 
+
+These servers might provide a security layer, a caching layer, a load-balancing layer, 
+or other functionality. Those layers should not affect the request or the response. 
+
+Code on demand
+	This constraint is optional — an API can be RESTful even without 
+providing code on demand.
+
+The client can request code from the server, and then the response from the server 
+will contain some code, usually in the form of a script, when the response is in HTML format. 
+The client then can execute that code.
+	
+	
+
+	
+
+	
+	
