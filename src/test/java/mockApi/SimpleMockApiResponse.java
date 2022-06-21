@@ -14,7 +14,7 @@ public class SimpleMockApiResponse
 	@Test
 	public void mockApiUsingDesignerMock() {
 	/*
-	 * The below URL is made up of mock api. 
+	 * The below URL is the url made from a mock api. 
 	 * Basically it holds a simple json response and returns 200 as the status code
 	 */
 		RestAssured.given()

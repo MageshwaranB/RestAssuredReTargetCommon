@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 
 public class JsonPayloadWithMap {
 	/*
-	 * As we have passed the body in the one string earlier, that's useful and practical
+	 * As we have passed the body as string earlier, that's useful and practical
 	 * when we have a small amount of resource but when comes to complex details, Map is preferred
 	 * Map takes key and value pair
 	 */

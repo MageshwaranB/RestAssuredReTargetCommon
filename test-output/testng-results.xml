@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-01T13:15:31 IST" name="Default suite" finished-at="2022-06-01T13:15:39 IST" duration-ms="7718">
+  <suite started-at="2022-06-15T10:23:57 IST" name="Default suite" finished-at="2022-06-15T10:24:02 IST" duration-ms="4482">
     <groups>
     </groups>
-    <test started-at="2022-06-01T13:15:31 IST" name="Default test" finished-at="2022-06-01T13:15:39 IST" duration-ms="7718">
-      <class name="mockApi.ConvertJsonArrayToJavaList">
-        <test-method signature="deserializationForList()[pri:0, instance:mockApi.ConvertJsonArrayToJavaList@16a0ee18]" started-at="2022-06-01T13:15:31 IST" name="deserializationForList" finished-at="2022-06-01T13:15:38 IST" duration-ms="6820" status="PASS">
+    <test started-at="2022-06-15T10:23:57 IST" name="Default test" finished-at="2022-06-15T10:24:02 IST" duration-ms="4482">
+      <class name="mockApi.HandlingDynamicJsonResponse">
+        <test-method signature="handlingDynamicResponseUsingInstanceOf()[pri:0, instance:mockApi.HandlingDynamicJsonResponse@5fbdfdcf]" started-at="2022-06-15T10:23:57 IST" name="handlingDynamicResponseUsingInstanceOf" finished-at="2022-06-15T10:24:02 IST" duration-ms="4420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deserializationForList -->
-        <test-method signature="deserializationForListWithoutSuppressWarnings()[pri:0, instance:mockApi.ConvertJsonArrayToJavaList@16a0ee18]" started-at="2022-06-01T13:15:38 IST" name="deserializationForListWithoutSuppressWarnings" finished-at="2022-06-01T13:15:39 IST" duration-ms="828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deserializationForListWithoutSuppressWarnings -->
-      </class> <!-- mockApi.ConvertJsonArrayToJavaList -->
+        </test-method> <!-- handlingDynamicResponseUsingInstanceOf -->
+      </class> <!-- mockApi.HandlingDynamicJsonResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
