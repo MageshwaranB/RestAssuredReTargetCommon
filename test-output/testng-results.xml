@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-22T12:19:53 IST" name="Default suite" finished-at="2022-06-22T12:19:56 IST" duration-ms="3464">
+  <suite started-at="2022-07-04T12:23:09 IST" name="Default suite" finished-at="2022-07-04T12:23:13 IST" duration-ms="4413">
     <groups>
     </groups>
-    <test started-at="2022-06-22T12:19:53 IST" name="Default test" finished-at="2022-06-22T12:19:56 IST" duration-ms="3464">
-      <class name="com.miscellaneous.UploadAFileThroughRestAssured">
-        <test-method signature="downloadingFile()[pri:0, instance:com.miscellaneous.UploadAFileThroughRestAssured@53fdffa1]" started-at="2022-06-22T12:19:53 IST" name="downloadingFile" finished-at="2022-06-22T12:19:56 IST" duration-ms="3399" status="PASS">
+    <test started-at="2022-07-04T12:23:09 IST" name="Default test" finished-at="2022-07-04T12:23:13 IST" duration-ms="4413">
+      <class name="mockApi.HandlingDynamicJsonResponse">
+        <test-method signature="handlingDynamicResponseUsingInstanceOf()[pri:0, instance:mockApi.HandlingDynamicJsonResponse@5fbdfdcf]" started-at="2022-07-04T12:23:09 IST" name="handlingDynamicResponseUsingInstanceOf" finished-at="2022-07-04T12:23:13 IST" duration-ms="4322" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadingFile -->
-      </class> <!-- com.miscellaneous.UploadAFileThroughRestAssured -->
+        </test-method> <!-- handlingDynamicResponseUsingInstanceOf -->
+      </class> <!-- mockApi.HandlingDynamicJsonResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

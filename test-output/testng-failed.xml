@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datashare.SharingData">
+      <class name="httpVerbs.PutRequestExample">
         <methods>
-          <include name="retreivePetData"/>
+          <include name="updatingBookingUsingPUT"/>
         </methods>
-      </class> <!-- datashare.SharingData -->
+      </class> <!-- httpVerbs.PutRequestExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

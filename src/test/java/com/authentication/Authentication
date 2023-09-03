@@ -1,0 +1,13 @@
+Authentication is a process to prove that you're an authenticate user or not
+Rest assured supports several authentication schemes like OAuth, digest, certificate,
+form,preemptive and basic 
+
+Pre emptive Authentication
+This will send the basic authentication credentials even before the server gives an 
+unauthorized response in certain situations, thus reducing the overhead of making
+an additional connection. It will automatically send the credentials as a header format whether
+the requests the credentials or not
+
+Challenged Basic Authentication
+When using this one, rest assured will not supply the credentials unless the server 
+explicitly asks it. This means rest assured will make one additional call 
